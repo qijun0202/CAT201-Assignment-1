@@ -15,7 +15,8 @@
             <h2>Please upload PDF file for conversion.</h2>
             <form action="file-upload.php" method="post" enctype="multipart/form-data">
                 Select PDF file to upload:<br>
-                <input type="file" name="pdfFileToUpload" id="pdfFileToUpload">
+                <br>
+                <input type="file" name="pdfFileToUpload" id="pdfFileToUpload"><br><br>
                 <input type="submit" value="Upload PDF File" name="submit">
             </form>
         </div>
