@@ -13,7 +13,8 @@
 
         <div class="file-upload">
             <h2>Please upload PDF file for conversion.</h2>
-            <form action="file-upload.php" method="post" enctype="multipart/form-data">
+            <form action="file-upload.php" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="MAX_FILE_SIZE" value="1048576">
                 Select PDF file to upload:<br>
                 <br>
                 <input type="file" name="pdfFileToUpload" id="pdfFileToUpload"><br><br>
