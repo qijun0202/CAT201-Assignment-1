@@ -57,7 +57,6 @@
     }
     else
     {
-        $test = $_SERVER['DOCUMENT_ROOT'] . "/" . $target_dir;
         if(move_uploaded_file($_FILES["pdfFileToUpload"]['tmp_name'], $target_file))
         {
             echo "The file " . htmlspecialchars(basename($_FILES["pdfFileToUpload"]["name"])) . " has been uploaded.";
