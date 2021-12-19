@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="qijun0202-PDFBox:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/qijun0202_PDFBox_jar</output-path>
+    <root id="archive" name="qijun0202-PDFBox.jar">
+      <element id="module-output" name="qijun0202-PDFBox" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/pdfbox-2.0.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/pdfbox-app-2.0.24.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
